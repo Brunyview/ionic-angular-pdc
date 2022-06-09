@@ -1,12 +1,32 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { IonicModule } from '@ionic/angular';
+import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
 
 @Component({
-  selector: 'app-tab3',
-  templateUrl: 'tab3.page.html',
-  styleUrls: ['tab3.page.scss']
+  standalone: true,
+  selector: 'app-tab2',
+  template: `<ion-header [translucent]="true">
+      <ion-toolbar>
+        <ion-title> Tab 3 </ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content [fullscreen]="true">
+      <ion-header collapse="condense">
+        <ion-toolbar>
+          <ion-title size="large">Tab 3</ion-title>
+        </ion-toolbar>
+      </ion-header>
+      <app-explore-container name="Tab 3 page"></app-explore-container>
+    </ion-content> `,
+  imports: [
+    IonicModule,
+    CommonModule,
+    FormsModule,
+    ExploreContainerComponentModule,
+  ],
 })
 export class Tab3Page {
-
   constructor() {}
-
 }
