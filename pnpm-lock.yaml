@@ -25,7 +25,6 @@ specifiers:
   '@ionic/angular': ^6.1.9
   '@ionic/angular-toolkit': ^6.0.0
   '@types/jasmine': ~3.6.0
-  '@types/jasminewd2': ~2.0.3
   '@types/node': ^12.11.1
   '@typescript-eslint/eslint-plugin': 5.3.0
   '@typescript-eslint/parser': 5.3.0
@@ -78,7 +77,6 @@ devDependencies:
   '@capacitor/cli': 3.5.1
   '@ionic/angular-toolkit': 6.1.0
   '@types/jasmine': 3.6.11
-  '@types/jasminewd2': 2.0.10
   '@types/node': 12.20.55
   '@typescript-eslint/eslint-plugin': 5.3.0_lzu6gaojuunxfgxbq57bkpwg2e
   '@typescript-eslint/parser': 5.3.0_kix3shd7zvxuvkzdjm72bpp2vy
@@ -2454,12 +2452,6 @@ packages:
 
   /@types/jasmine/3.6.11:
     resolution: {integrity: sha512-S6pvzQDvMZHrkBz2Mcn/8Du7cpr76PlRJBAoHnSDNbulULsH5dp0Gns+WRyNX5LHejz/ljxK4/vIHK/caHt6SQ==}
-    dev: true
-
-  /@types/jasminewd2/2.0.10:
-    resolution: {integrity: sha512-J7mDz7ovjwjc+Y9rR9rY53hFWKATcIkrr9DwQWmOas4/pnIPJTXawnzjwpHm3RSxz/e3ZVUvQ7cRbd5UQLo10g==}
-    dependencies:
-      '@types/jasmine': 3.6.11
     dev: true
 
   /@types/json-schema/7.0.11:
