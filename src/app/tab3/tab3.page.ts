@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
-import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
+import { ExploreContainerComponent } from '../explore-container/explore-container.component';
 
 @Component({
   standalone: true,
@@ -20,12 +20,7 @@ import { ExploreContainerComponentModule } from '../explore-container/explore-co
       </ion-header>
       <app-explore-container name="Tab 3 page"></app-explore-container>
     </ion-content> `,
-  imports: [
-    IonicModule,
-    CommonModule,
-    FormsModule,
-    ExploreContainerComponentModule,
-  ],
+  imports: [IonicModule, CommonModule, FormsModule, ExploreContainerComponent],
 })
 export class Tab3Page {
   constructor() {}
