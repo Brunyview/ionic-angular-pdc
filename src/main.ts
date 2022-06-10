@@ -17,8 +17,6 @@ bootstrapApplication(AppComponent, {
       RouterModule.forRoot([
         {
           path: '',
-          loadComponent: () =>
-            import('./app/tabs/tabs.page').then((m) => m.TabsPage),
           loadChildren: () =>
             import('./app/tabs/tabs.routing').then((m) => m.routes),
         },
