@@ -1,9 +1,8 @@
-import { Routes } from '@angular/router';
-import { Tab3Page } from './tab3.page';
+import { Route } from '@angular/router';
 
-export const routes: Routes = [
+export const routes: Route[] = [
   {
     path: '',
-    component: Tab3Page,
+    loadComponent: () => import('./tab3.page').then((m) => m.Tab3Page),
   },
 ];

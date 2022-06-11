@@ -22,7 +22,7 @@ specifiers:
   '@capacitor/haptics': 1.1.4
   '@capacitor/keyboard': 1.2.2
   '@capacitor/status-bar': 1.0.8
-  '@ionic/angular': ^6.1.9
+  '@ionic/angular': 6.1.7-dev.11654279011.1b971e3e
   '@ionic/angular-toolkit': ^6.0.0
   '@types/jasmine': ~3.6.0
   '@types/node': ^12.11.1
@@ -60,7 +60,7 @@ dependencies:
   '@capacitor/haptics': 1.1.4_@capacitor+core@3.5.1
   '@capacitor/keyboard': 1.2.2_@capacitor+core@3.5.1
   '@capacitor/status-bar': 1.0.8_@capacitor+core@3.5.1
-  '@ionic/angular': 6.1.9_zxr6lrlv5qswcaprxqwphtiy6i
+  '@ionic/angular': 6.1.7-dev.11654279011.1b971e3e_zxr6lrlv5qswcaprxqwphtiy6i
   ionicons: 6.0.2
   rxjs: 6.6.7
   tslib: 2.4.0
@@ -1974,8 +1974,8 @@ packages:
       - chokidar
     dev: true
 
-  /@ionic/angular/6.1.9_zxr6lrlv5qswcaprxqwphtiy6i:
-    resolution: {integrity: sha512-TeuMZnDMTpmueOJNACQ52ERUlb0pgwl5EgdRzl1R5bl8d8qjkUCnXgn042xPVfsEjD2ZxPGDFfOuYGqeYIfYkQ==}
+  /@ionic/angular/6.1.7-dev.11654279011.1b971e3e_zxr6lrlv5qswcaprxqwphtiy6i:
+    resolution: {integrity: sha512-+Bz8r73/8eRM2IDXxVVYCkOaU0E5+9wvDk+jgjFcMeQW2ewFhSwpE00zd9aA6jrc2zU7b1fFbegNFsO8b51fTg==}
     peerDependencies:
       '@angular/core': '>=12.0.0'
       '@angular/forms': '>=12.0.0'
@@ -1986,7 +1986,7 @@ packages:
       '@angular/core': 14.0.1_rxjs@6.6.7+zone.js@0.11.5
       '@angular/forms': 14.0.1_ow6auhsps6mhveu3u6hy4yz3ii
       '@angular/router': 14.0.1_ow6auhsps6mhveu3u6hy4yz3ii
-      '@ionic/core': 6.1.9
+      '@ionic/core': 6.1.7-dev.11654279011.1b971e3e
       jsonc-parser: 3.0.0
       rxjs: 6.6.7
       tslib: 2.4.0
@@ -2004,8 +2004,8 @@ packages:
       - supports-color
     dev: true
 
-  /@ionic/core/6.1.9:
-    resolution: {integrity: sha512-EaClsiGB/E9wPkujnrMZ71BLVcA8t6DBZu+caJMmqPLF/64S37CiyfrrMbL1UnxDWP2TXsPFH3seWl6Ek/W1bw==}
+  /@ionic/core/6.1.7-dev.11654279011.1b971e3e:
+    resolution: {integrity: sha512-tLXi9Oyobo50WfPuu4qcDERYyb1s0LexfVWLaJXt1CU309oPOoJw2c0nhB+3Gpup3P7UGLuNBe2nIat+9t7tkA==}
     dependencies:
       '@stencil/core': 2.16.1
       ionicons: 6.0.2
@@ -2273,10 +2273,10 @@ packages:
       - supports-color
     dev: true
 
-  /@nrwl/cli/14.2.2:
-    resolution: {integrity: sha512-LnIgs2kkCoVe4x2mDBhdMfD7yD1d0TteJKY6MO7V0NaMjUMiJHpFz2xGQQkre/UpcRHDCHd7xwYEN4J8auNfKQ==}
+  /@nrwl/cli/14.2.4:
+    resolution: {integrity: sha512-Ak6mmM9W39DSVaRDxt0yqMwHWg5yL9+QqhSB7q464EAKS6r4NPr6Z+avAjqAfoS/H8WsEPlwJnsaaJiP/gBwWQ==}
     dependencies:
-      nx: 14.2.2
+      nx: 14.2.4
     transitivePeerDependencies:
       - '@swc-node/register'
       - '@swc/core'
@@ -2316,11 +2316,11 @@ packages:
       - '@swc/core'
     dev: true
 
-  /@nrwl/tao/14.2.2:
-    resolution: {integrity: sha512-FSqgsWEBJEVa70+crT20OqgI15XJjiy1x3fADx9hYFMQz/NYwQuFlmZG8xiZcRnEy2bOE6pdb5s6ThokjdE5XQ==}
+  /@nrwl/tao/14.2.4:
+    resolution: {integrity: sha512-wnrS+Go1Moa+jkOKqxoR/+YihDSoMlbUemBBoa1P2JQ6gvCnCrsvCx3qosJ0HfSdqQy8tkoUqd624RcGUyDUbg==}
     hasBin: true
     dependencies:
-      nx: 14.2.2
+      nx: 14.2.4
     transitivePeerDependencies:
       - '@swc-node/register'
       - '@swc/core'
@@ -2843,7 +2843,7 @@ packages:
       ajv:
         optional: true
     dependencies:
-      ajv: 8.11.0
+      ajv: 8.9.0
     dev: true
 
   /ajv-keywords/3.5.2_ajv@6.12.6:
@@ -3079,7 +3079,7 @@ packages:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.20.4
-      caniuse-lite: 1.0.30001351
+      caniuse-lite: 1.0.30001352
       fraction.js: 4.2.0
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -3287,8 +3287,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001351
-      electron-to-chromium: 1.4.149
+      caniuse-lite: 1.0.30001352
+      electron-to-chromium: 1.4.151
       escalade: 3.1.1
       node-releases: 2.0.5
       picocolors: 1.0.0
@@ -3428,8 +3428,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /caniuse-lite/1.0.30001351:
-    resolution: {integrity: sha512-u+Ll+RDaiQEproTQjZLjZwyfNgNezA1fERMT7/54npcz+PkbVJUAHXMUz4bkXQYRPWrcFNO0Fbi1mwjfXg6N5g==}
+  /caniuse-lite/1.0.30001352:
+    resolution: {integrity: sha512-GUgH8w6YergqPQDGWhJGt8GDRnY0L/iJVQcU3eJ46GYf52R8tk0Wxp0PymuFVZboJYXGiCqwozAYZNRjVj6IcA==}
     dev: true
 
   /caseless/0.12.0:
@@ -4101,8 +4101,8 @@ packages:
       jake: 10.8.5
     dev: true
 
-  /electron-to-chromium/1.4.149:
-    resolution: {integrity: sha512-SR6ZQ8gfXX7LIS3UTDXu1CbFMUnluP3TS+jP7QwDwOnoH5CcHbejFdaaaEnGxR6I76E55eFnUV9mxI8GKufkEg==}
+  /electron-to-chromium/1.4.151:
+    resolution: {integrity: sha512-XaG2LpZi9fdiWYOqJh0dJy4SlVywCvpgYXhzOlZTp4JqSKqxn5URqOjbm9OMYB3aInA2GuHQiem1QUOc1yT0Pw==}
     dev: true
 
   /elementtree/0.1.7:
@@ -6439,7 +6439,7 @@ packages:
     dev: true
 
   /media-typer/0.3.0:
-    resolution: {integrity: sha1-hxDXrwqmJvj/+hzgAWhUUmMlV0g=}
+    resolution: {integrity: sha512-dq+qelQ9akHpcOl/gUVRTxVIOkAJ1wR3QAvb4RsVjS8oVoFjDGTc679wJYmUmknUF5HwMLOgb5O+a3KxfWapPQ==}
     engines: {node: '>= 0.6'}
     dev: true
 
@@ -6451,7 +6451,7 @@ packages:
     dev: true
 
   /merge-descriptors/1.0.1:
-    resolution: {integrity: sha1-sAqqVW3YtEVoFQ7J0blT8/kMu2E=}
+    resolution: {integrity: sha512-cCi6g3/Zr1iqQi6ySbseM1Xvooa98N0w31jzUYrXPX2xqObmFGHJ0tQ5u74H3mVh7wLouTseZyYIq39g8cNp1w==}
     dev: true
 
   /merge-stream/2.0.0:
@@ -6886,14 +6886,14 @@ packages:
     resolution: {integrity: sha512-clM0NQhQKYkqcNz2E3uYRMLwhp2L/9dBhJhQi9XBX4IAyA2gWAomhRIlLm5Xxg3g4h1xwSpP3eJ5t89VikY8Pw==}
     hasBin: true
     dependencies:
-      '@nrwl/cli': 14.2.2
+      '@nrwl/cli': 14.2.4
     transitivePeerDependencies:
       - '@swc-node/register'
       - '@swc/core'
     dev: true
 
-  /nx/14.2.2:
-    resolution: {integrity: sha512-7QXNhcC8FqoLuq7yCEXS6rrfWX/KgFZk+Q++Fg4MBXXnIJ3xR6Fd3Db5R2jSFodio++hzA92ZWe2R/TAftageg==}
+  /nx/14.2.4:
+    resolution: {integrity: sha512-/LnPgHSckncvS+azP17F0sskDWeiEdBG3eMpAauX8dol4ECG01xPlkiuMTCw4URes6J1TObZTbaEk4eP2uWrag==}
     hasBin: true
     requiresBuild: true
     peerDependencies:
@@ -6905,8 +6905,8 @@ packages:
       '@swc/core':
         optional: true
     dependencies:
-      '@nrwl/cli': 14.2.2
-      '@nrwl/tao': 14.2.2
+      '@nrwl/cli': 14.2.4
+      '@nrwl/tao': 14.2.4
       '@parcel/watcher': 2.0.4
       chalk: 4.1.0
       chokidar: 3.5.3
@@ -7232,7 +7232,7 @@ packages:
     dev: true
 
   /path-to-regexp/0.1.7:
-    resolution: {integrity: sha1-32BBeABfUi8V60SQ5yR6G/qmf4w=}
+    resolution: {integrity: sha512-5DFkuoqlv1uYQKxy8omFBeJPQcdoE07Kv2sferDCrAq1ohOU+MSDswDIbnx3YAM60qIOnYa53wBhXW0EbMonrQ==}
     dev: true
 
   /path-type/2.0.0:
@@ -8646,7 +8646,7 @@ packages:
     dev: true
 
   /statuses/1.5.0:
-    resolution: {integrity: sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow=}
+    resolution: {integrity: sha512-OpZ3zP+jT1PI7I8nemJX4AKmAX070ZkYPVWV/AaKTJl+tXCTGyVdC1a4SL8RUQYEwk/f34ZX8UTykN68FwrqAA==}
     engines: {node: '>= 0.6'}
     dev: true
 
@@ -8704,7 +8704,7 @@ packages:
     dev: true
 
   /strip-ansi/3.0.1:
-    resolution: {integrity: sha1-ajhfuIU9lS1f8F0Oiq+UJ43GPc8=}
+    resolution: {integrity: sha512-VhumSSbBqDTP8p2ZLKj40UjBCV4+v8bUSEpUb4KjRgWk9pbqGF4REFj6KEagidb2f/M6AzC0EmFyDNGaw9OCzg==}
     engines: {node: '>=0.10.0'}
     dependencies:
       ansi-regex: 2.1.1
@@ -8718,7 +8718,7 @@ packages:
     dev: true
 
   /strip-bom/3.0.0:
-    resolution: {integrity: sha1-IzTBjpx1n3vdVv3vfprj1YjmjtM=}
+    resolution: {integrity: sha512-vavAMRXOgBVNF6nyEEmL3DBK19iRpDcoIwW+swQ+CbGiu7lju6t+JklA1MHweoWtadgt4ISVUsXLyDq34ddcwA==}
     engines: {node: '>=4'}
     dev: true
 
@@ -8761,7 +8761,7 @@ packages:
     dev: true
 
   /supports-color/2.0.0:
-    resolution: {integrity: sha1-U10EXOa2Nj+kARcIRimZXp3zJMc=}
+    resolution: {integrity: sha512-KKNVtd6pCYgPIKU4cp2733HWYCpplQhddZLBUryaAHou723x+FRzQ5Df824Fj+IyyuiQTRoub4SnIFfIcrp70g==}
     engines: {node: '>=0.8.0'}
     dev: true
 
@@ -8881,11 +8881,11 @@ packages:
     dev: true
 
   /text-table/0.2.0:
-    resolution: {integrity: sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=}
+    resolution: {integrity: sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==}
     dev: true
 
   /through/2.3.8:
-    resolution: {integrity: sha1-DdTJ/6q8NXlgsbckEV1+Doai4fU=}
+    resolution: {integrity: sha512-w89qg7PI8wAdvX60bMDP+bFoD5Dvhm9oLheFp5O4a2QF0cSBGsBX4qZmadPMvVqlLJBBci+WqGGOAPvcDeNSVg==}
     dev: true
 
   /through2/4.0.2:
@@ -9269,7 +9269,7 @@ packages:
       spdy: 4.0.2
       webpack: 5.72.1_esbuild@0.14.38
       webpack-dev-middleware: 5.3.1_webpack@5.72.1
-      ws: 8.7.0
+      ws: 8.8.0
     transitivePeerDependencies:
       - bufferutil
       - debug
@@ -9445,8 +9445,8 @@ packages:
         optional: true
     dev: true
 
-  /ws/8.7.0:
-    resolution: {integrity: sha512-c2gsP0PRwcLFzUiA8Mkr37/MI7ilIlHQxaEAtd0uNMbVMoy8puJyafRlm0bV9MbGSabUPeLrRRaqIBcFcA2Pqg==}
+  /ws/8.8.0:
+    resolution: {integrity: sha512-JDAgSYQ1ksuwqfChJusw1LSJ8BizJ2e/vVu5Lxjq3YvNJNlROv1ui4i+c/kUUrPheBvQl4c5UbERhTwKa6QBJQ==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
