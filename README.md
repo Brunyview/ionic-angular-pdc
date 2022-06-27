@@ -1,4 +1,4 @@
 # ionic-angular-pdc
-example of Ionic angular 14 standalone components directives and pipes
+example of Ionic angular 14 standalone components directives and pipes - no modules.
 
-The components are standalone except for appComponent which causes an error when bootstrapping
+"@ionic/angular": "6.1.7-dev.11654279011.1b971e3e"
