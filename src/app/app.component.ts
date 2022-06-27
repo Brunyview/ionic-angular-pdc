@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EnvironmentInjector } from '@angular/core';
 import { RouteReuseStrategy, RouterModule } from '@angular/router';
 import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 
@@ -7,6 +7,7 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
   standalone: true,
   template: `
     <ion-app>
+      <!-- <ion-router-outlet [environmentInjector]="environmentInjector"></ion-router-outlet> -->
       <ion-router-outlet></ion-router-outlet>
     </ion-app>
   `,
@@ -14,5 +15,5 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
 })
 export class AppComponent {
-  constructor() {}
+  // constructor(public environmentInjector: EnvironmentInjector) {}
 }
