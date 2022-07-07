@@ -22,7 +22,7 @@ specifiers:
   '@capacitor/haptics': 1.1.4
   '@capacitor/keyboard': 1.2.2
   '@capacitor/status-bar': 1.0.8
-  '@ionic/angular': 6.1.7-dev.11654279011.1b971e3e
+  '@ionic/angular': 6.1.14-dev.11657224247.185f8192
   '@ionic/angular-toolkit': ^6.0.0
   '@types/jasmine': ~3.6.0
   '@types/node': ^12.11.1
@@ -60,7 +60,7 @@ dependencies:
   '@capacitor/haptics': 1.1.4_@capacitor+core@3.5.1
   '@capacitor/keyboard': 1.2.2_@capacitor+core@3.5.1
   '@capacitor/status-bar': 1.0.8_@capacitor+core@3.5.1
-  '@ionic/angular': 6.1.7-dev.11654279011.1b971e3e_3u77crh6j6m7uvx7v7kwzeijue
+  '@ionic/angular': 6.1.14-dev.11657224247.185f8192_3u77crh6j6m7uvx7v7kwzeijue
   ionicons: 6.0.2
   rxjs: 6.6.7
   tslib: 2.4.0
@@ -1974,8 +1974,8 @@ packages:
       - chokidar
     dev: true
 
-  /@ionic/angular/6.1.7-dev.11654279011.1b971e3e_3u77crh6j6m7uvx7v7kwzeijue:
-    resolution: {integrity: sha512-+Bz8r73/8eRM2IDXxVVYCkOaU0E5+9wvDk+jgjFcMeQW2ewFhSwpE00zd9aA6jrc2zU7b1fFbegNFsO8b51fTg==}
+  /@ionic/angular/6.1.14-dev.11657224247.185f8192_3u77crh6j6m7uvx7v7kwzeijue:
+    resolution: {integrity: sha512-A0GZPzi4D4BD9LcxKkZ4YcOMt2Agv9DRsjNhXS+wpW+BSZMJHaeFVzjO479H5avfOy8DxFBYgBpIRxnTE5NJ3A==}
     peerDependencies:
       '@angular/core': '>=12.0.0'
       '@angular/forms': '>=12.0.0'
@@ -1986,7 +1986,7 @@ packages:
       '@angular/core': 14.0.3_rxjs@6.6.7+zone.js@0.11.6
       '@angular/forms': 14.0.3_7fobmieh6avkmp7wdyn72ckinm
       '@angular/router': 14.0.3_7fobmieh6avkmp7wdyn72ckinm
-      '@ionic/core': 6.1.7-dev.11654279011.1b971e3e
+      '@ionic/core': 6.1.14-dev.11657224247.185f8192
       jsonc-parser: 3.0.0
       rxjs: 6.6.7
       tslib: 2.4.0
@@ -2004,8 +2004,8 @@ packages:
       - supports-color
     dev: true
 
-  /@ionic/core/6.1.7-dev.11654279011.1b971e3e:
-    resolution: {integrity: sha512-tLXi9Oyobo50WfPuu4qcDERYyb1s0LexfVWLaJXt1CU309oPOoJw2c0nhB+3Gpup3P7UGLuNBe2nIat+9t7tkA==}
+  /@ionic/core/6.1.14-dev.11657224247.185f8192:
+    resolution: {integrity: sha512-TQptLV9pZYSH9P1rNMPucroUTfTEOFJoWQsaBS92vEjVkmy8n49mOGhpQ8GE8FsAevm/LODL+ekGbpP4SzQJdw==}
     dependencies:
       '@stencil/core': 2.17.0
       ionicons: 6.0.2

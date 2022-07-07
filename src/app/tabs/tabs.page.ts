@@ -7,8 +7,8 @@ import { IonicModule } from '@ionic/angular';
   standalone: true,
   selector: 'app-tabs',
   template: `
-  <!-- <ion-tabs [environmentInjector]="environmentInjector"> -->
-  <ion-tabs>
+  <ion-tabs [environmentInjector]="environmentInjector">
+  <!-- <ion-tabs> -->
     <ion-tab-bar slot="bottom">
       <ion-tab-button tab="tab1">
         <ion-icon name="triangle"></ion-icon>
@@ -27,5 +27,5 @@ import { IonicModule } from '@ionic/angular';
   imports: [IonicModule, CommonModule, FormsModule],
 })
 export class TabsPage {
-  // constructor(public environmentInjector: EnvironmentInjector) {}
+  constructor(public environmentInjector: EnvironmentInjector) {}
 }
